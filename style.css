@@ -287,15 +287,14 @@ margin-bottom: 20px;
         background: #429EBD;
         color: #fff;
         cursor: pointer;
-        height: 0px;       
+        height: 0px;   
         
     }
 
     button:focus ~ ul {
         height: 250px;
         visibility: visible;
-        transition: all 0.3s ease; 
-        margin-top: 20px;
+        transition: all 0.3s ease;         
     }
 
     button {
@@ -306,14 +305,15 @@ margin-bottom: 20px;
 
     ul li {
         width: 200px;
-        height: 30px;
+       
         justify-content: flex-start;
         display: flex;
         font-family: 'IBM Plex Sans';
         font-style: italic;
         font-weight: 400;
         font-size: 13px;
-        background: #429EBD;
+        background: #053F5C;
+        opacity: 90%;
     }
 
     ul li a {
@@ -351,16 +351,22 @@ margin-bottom: 20px;
         font-style: italic;
         font-size: small;
     }
-    
+
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+    }
+
     .btn-info {
-        background: #429ebd;
+        background: #053F5C;
         border: none;
         width: 100px;
         color:#fff;
         opacity: 90%;      
     }
-   
 
+    
     .foto-texto {
         font-size: 18px;
         margin: 0px;

@@ -17,8 +17,7 @@ img {
 
 .slide-items img {
     width: 100%;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px;   
 }
 
 .slide {
@@ -642,7 +641,7 @@ button a {
         overflow-x: hidden;
     }
     .menu-logo {   
-        width: 20%;
+        width: 60%;
     }
 
 
@@ -723,24 +722,30 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 98%;
-    position: absolute;
-    top: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;  
+    right: 0;    
+    z-index: 3;
+    background: rgba(5, 63, 92, 0.93);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
    }
 
 
 .nav-menudesktop a {
     font-size: 10px;
-    color: #429ebd;
+    color: #fff;
     font-size: 20px;
     margin:20px;
-}
-.slide {
-    width: 70%;
-    justify-self: center;
-    margin-left: 12em;
-    overflow: hidden;
+    text-decoration: underline;
 }
 
+.slide-nav {
+    margin-top: 20px;
 }
 
+
+.slide-items img {
+    margin-top: 10px;
+    margin-bottom: 20px;   
+}
